@@ -1,0 +1,1122 @@
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop (master)
+$ git clone https://github.com/Revature-Training-1302/exercises.git
+fatal: destination path 'exercises' already exists and is not an empty directory.
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop (master)
+$ cd exercises.git
+bash: cd: exercises.git: No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop (master)
+$ cd exercises
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises (main)
+$ find . -name trash*
+./week1/unix_exercise/house/basement/laundry-room/trash1
+./week1/unix_exercise/house/basement/laundry-room/trash2
+./week1/unix_exercise/house/basement/storage/trash3
+./week1/unix_exercise/house/floor0/kitchen/fridge/trash4
+./week1/unix_exercise/house/floor0/kitchen/fridge/trash5
+./week1/unix_exercise/house/floor0/kitchen/pantry/trash6
+./week1/unix_exercise/house/floor0/living-room/bookshelf/trash7
+./week1/unix_exercise/house/floor1/balcony/trash10
+./week1/unix_exercise/house/floor1/balcony/trash11
+./week1/unix_exercise/house/floor1/bedroom1/closet/trash8
+./week1/unix_exercise/house/floor1/bedroom1/closet/trash9
+./week1/unix_exercise/house/floor2/storage/box1/trash12
+./week1/unix_exercise/house/floor2/storage/box1/trash13
+./week1/unix_exercise/house/floor2/storage/box1/trash14
+./week1/unix_exercise/house/floor2/storage/box3/trash15
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises (main)
+$ ls exercises
+ls: cannot access 'exercises': No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises (main)
+$ ls https://github.com/Revature-Training-1302/exercises.git
+ls: cannot access 'https://github.com/Revature-Training-1302/exercises.git': No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises (main)
+$ cd week1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1 (main)
+$ cd unix_exercise
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ cd chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/chest (main)
+$ cd house/
+bash: cd: house/: No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/chest (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ cd house/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd basement/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ cd laundry-room/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  trash1  trash2  treasure1  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ rm trash1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  trash2  treasure1  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ rm trash2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 chest
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv chest treasure1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 basement
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+basement  clothes  dryer  drying-rack  soap  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv basement treasure1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv ../ ../ ../ chest
+mv: target 'chest' is not a directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 ../ ../ ../ chest
+mv: target 'chest' is not a directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ git mv treasure1 chest
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+chest  clothes  dryer  drying-rack  soap  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv chest treasure1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ pwd
+/c/Users/Luke Frahm Laptop/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 basement
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+basement  clothes  dryer  drying-rack  soap  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv basement treasure1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure ../
+mv: cannot stat 'treasure': No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ git mv laundry-room/treasure1 basement
+fatal: bad source, source=week1/unix_exercise/house/basement/laundry-room/laundry-room/treasure1, destination=week1/unix_exercise/house/basement/laundry-room/basement
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ git mv treasure1/laundry-room basement
+fatal: bad source, source=week1/unix_exercise/house/basement/laundry-room/treasure1/laundry-room, destination=week1/unix_exercise/house/basement/laundry-room/basement
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  washer
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 ../
+mv: cannot stat 'treasure1': No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/  treasure1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ mv treasure1 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  treasure1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv treasure1 chest
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  chest  floor0/  floor1/  floor2/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv chest treasure1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  treasure1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ git mv house/treasure1 chest
+fatal: bad source, source=week1/unix_exercise/house/house/treasure1, destination=week1/unix_exercise/house/chest
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd basement
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ cd storage
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  trash3  treasure2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ rm trash3
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../
+mv: cannot stat 'treasure2': No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ mv treasure2 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  treasure1  treasure2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv trasure ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror  trasure
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ mv trasure ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/  trasure
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ mv trasure ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  treasure1  treasure2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd kitchen
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd fridge
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trash4  trash5  trasure4
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash4
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash5
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ mv trasure4 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/  trasure4
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ mv trasure4 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/  trasure4
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ mv trasure4 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  trasure4  treasure1  treasure2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ..
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd kitchen
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ fridge
+bash: fridge: command not found
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd fridge
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd oven
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ ls
+chicken-roast
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd pantry
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers  trash6
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ rm trash6
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd living-room
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd bookshelf
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings  trash7  trasure5
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ rm trash7
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ mv trasure5 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table  trasure5
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ mv trasure5 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/  trasure5
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ mv trasure5 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  trasure4  trasure5  treasure1  treasure2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd living-room
+bash: cd: living-room: No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~
+$ ls
+'3D Objects'/                IntelGraphicsProfiles/                                                                         OneDrive/       chevy.txt
+ AppData/                    Links/                                                                                         Pictures/       eclipse/
+'Application Data'@         'Local Settings'@                                                                               PrintHood@      eclipse-workspace/
+ BullseyeCoverageError.txt   MicrosoftEdgeBackups/                                                                          Recent@         exercises
+ Contacts/                   Music/                                                                                        'Saved Games'/   file1
+ Cookies@                   'My Documents'@                                                                                 Searches/       file1.txt
+ Desktop/                    NTUSER.DAT                                                                                     SendTo@         ford
+ Documents/                  NTUSER.DAT{b113c3b3-ccef-11eb-94a3-a44c57d7289d}.TM.blf                                       'Start Menu'@    ntuser.dat.LOG1
+ Downloads/                  NTUSER.DAT{b113c3b3-ccef-11eb-94a3-a44c57d7289d}.TMContainer00000000000000000001.regtrans-ms   Templates@      ntuser.dat.LOG2
+ Favorites/                  NTUSER.DAT{b113c3b3-ccef-11eb-94a3-a44c57d7289d}.TMContainer00000000000000000002.regtrans-ms  'Tor Browser'/   ntuser.ini
+ IdeaProjects/               NetHood@                                                                                       car/            week1/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~
+$ cd week1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/week1 (main)
+$ cd unix_exercise
+bash: cd: unix_exercise: No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/week1 (main)
+$ cd house
+bash: cd: house: No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/week1 (main)
+$ ls
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/week1 (main)
+$ cd Desktop/exercises/week1/unix_exercise/house
+bash: cd: Desktop/exercises/week1/unix_exercise/house: No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/week1 (main)
+$ ls
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/week1 (main)
+$ pwd
+/c/Users/Luke Frahm Laptop/week1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/week1 (main)
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/week1 (main)
+$ cd
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~
+$ cd Desktop
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop (master)
+$ cd exercises
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises (main)
+$ cd week1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1 (main)
+$ ls
+8.2.md  git-exercise.md  unix_exercise/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1 (main)
+$ cd unix_exercise
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ cd house
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  trasure4  trasure5  treasure1  treasure2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd living-room
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd bookshelf
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  trasure4  trasure5  treasure1  treasure2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd balcony
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant  trash10  trash11
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ rm trash10
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ rm trash11
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bathroom
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cdd closet
+bash: cdd: command not found
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd closet
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy  trash8  trash9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash8
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd dresser
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ ls
+pants  shirt  socks
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd toy-chest
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  trasure6  truck
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ mv trasure6 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/  trasure6
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ mv trasure6 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/  trasure6
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ mv trasure6 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  trasure4  trasure5  trasure6  treasure1  treasure2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd closet
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie  treasure7
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ mv treasure7 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ mv treasure7 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/  treasure7
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/  treasure7
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ mv treasure7 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  trasure4  trasure5  trasure6  treasure1  treasure2  treasure7
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd storage
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+trash12  trash13  trash14
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash12
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash13
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash14
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters  treasure8
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ mv treasure8 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ mv treasure8 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ mv treasure8 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  trasure4  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor2
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd storage
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box3
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters  trash15  treasure9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ rm trash15
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ mv treasure9 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ mv treasure9 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/  treasure9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ mv treasure9 ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  trasure4  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv trasure cd house
+mv: target 'house' is not a directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv trasure cd ../house
+mv: cannot stat 'cd': No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  trasure4  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor1
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bathroom
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ mv sink ..
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+toilet  tub
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+toilet  tub
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/  sink
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ cd house
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  trasure4  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv trasure chest
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  chest  floor0/  floor1/  floor2/  trasure4  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv chest trasure
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  trasure4  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv house/trasure chest/
+mv: cannot stat 'house/trasure': No such file or directory
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor1/  trasure   trasure5  treasure1  treasure7  treasure9
+floor0/    floor2/  trasure4  trasure6  treasure2  treasure8
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv trasure ../chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor1/  trasure4  trasure6   treasure2  treasure8
+floor0/    floor2/  trasure5  treasure1  treasure7  treasure9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ cd chest
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/chest (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ cd house
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor1/  trasure4  trasure6   treasure2  treasure8
+floor0/    floor2/  trasure5  treasure1  treasure7  treasure9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv treasure1 ../chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv trasure4 ../chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure5  trasure6  treasure2  treasure7  treasure8  treasure9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv trasure5 ../chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv trasure6 ../chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv treasure2 ../chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  treasure7  treasure8  treasure9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv treasure7 ../chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv treasure8 ../chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ mv treasure9 ../chest/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd ../
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ cd chest
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure  trasure4  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+Luke Frahm Laptop@LAPTOP-NOKJJ0PL MINGW64 ~/Desktop/exercises/week1/unix_exercise/chest (main)
+$
